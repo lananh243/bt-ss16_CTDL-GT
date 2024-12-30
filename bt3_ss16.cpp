@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdio.h>
-#include<stdlib.h>
 
 typedef struct Node {
 	int data;
@@ -50,9 +49,8 @@ int main() {
 		tree = insertNode(tree, value);
 	}
 	int leafCount = count(tree);
-    printf("So la trong cay nhi phan la : %d\n", leafCount);
+    	printf("So la trong cay nhi phan la : %d\n", leafCount);
 
-    return 0;
-	
+    	return 0;	
 }
 
