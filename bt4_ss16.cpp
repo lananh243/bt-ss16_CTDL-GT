@@ -60,15 +60,17 @@ int main() {
 		
 	}
 	printf("Duyet cay theo thu tu inorder: \n");
-    inorderTraversal(tree);
-    printf("\n"); 
-    printf("Nhap gia tri can tim: ");
-    scanf("%d", &searchValue);
-    if(searchNode(tree, searchValue)){
-    	printf("Gia tri %d ton tai trong cay",searchValue); 
+    	inorderTraversal(tree);
+    	printf("\n"); 
+	
+    	printf("Nhap gia tri can tim: ");
+    	scanf("%d", &searchValue);
+	
+	if(searchNode(tree, searchValue)){
+	    	printf("Gia tri %d ton tai trong cay",searchValue); 
 	}else{
 		printf("Gia tri %d ko ton tai trong cay",searchValue);
 	} 
-
+	return 0;
 }
 
