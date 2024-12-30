@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdio.h>
 #include<stdlib.h>
 
 typedef struct Node {
@@ -57,10 +56,11 @@ int main() {
 		scanf("%d",&value);
 		tree = insertNode(tree, value);
 	}
+	
 	int maxValue = findMax(tree);
-    printf("Gia tri lon nhat trong cay nhi phan la : %d\n", maxValue);
+    	printf("Gia tri lon nhat trong cay nhi phan la : %d\n", maxValue);
 
-    return 0;
+    	return 0;
 	
 }
 
